@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
             <h1>Practicing Bootstrap</h1>
         <div class="row">
             <div class="col-md-4 col-md-offset-8">
@@ -24,20 +24,42 @@
         <div class="row">
             <div class="jumbotron">
                 <h1>Hello there</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure illum explicabo commodi, dolorem distinctio ea eius laborum ab vel.</p>
+                <p class="welcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure illum explicabo commodi, dolorem distinctio ea eius laborum ab vel.</p>
                 <a href="" class="btn btn-danger">I'm a button</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-responsive img-circle" src="img/pawns.jpg" alt="Some pawns" />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <img src="img/pawns.jpg" alt="Two groups of board game pawns" class="img-responsive img-thumbnail pawns">
+                    <p class="text-capitalize text-muted"><i class="fas fa-chair fa-2x"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis <abbr title="nutella">nulla</abbr> et fugit ab id illo odio quidem sit nobis tempore.</p>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <img src="img/reflecting-pawns.jpg" alt="Toy soldiers reflecting off a game board" class="img-responsive img-thumbnail reflecting">
+                    <blockquote>
+                        <p class="bg-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <mark>Architecto</mark> harum et quia vel eum nulla facilis atque velit eligendi quisquam?</p>
+                    </blockquote>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <img src="img/north-sea.jpg" alt="some board game pieces from the game Raiders of the North Sea" class="img-responsive img-thumbnail seas">
+                    
+                    <p class="bg-warning"><button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        Lorem ipsum dolor <small>sit</small> amet consectetur adipisicing elit. Iure pariatur, molestias nihil reiciendis impedit eligendi recusandae dolorem tempore perspiciatis provident.</p>
+                </div>
             </div>
-            <div class="col-md-6"><img class="img-responsive img-rounded" src="img/north-sea.jpg" alt="Some board game piece"></div>
         </div>
-        <div class="row">
-            <div class="well well-lg">Help, I'm stuck in a well</div>
+        <div class="continer-fluid">
+            <div class="row">
+                <div class="col-md-12 mid">
+                    <p class="text-right lead">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum expedita quod quibusdam maxime quam debitis voluptatem, eius sequi ratione quidem quasi facilis alias illo dolore eligendi et quisquam in cumque architecto repellendus voluptas neque. Explicabo perspiciatis in earum, tenetur, natus dignissimos sequi fugiat porro minus, suscipit quia necessitatibus voluptatum nulla perferendis nisi accusamus eius molestias? Iste sint ea nesciunt? Amet quae eos impedit quam aliquid architecto nesciunt ipsum sapiente, ipsa accusantium qui magnam culpa blanditiis itaque consectetur officiis fugiat tenetur modi eligendi delectus beatae. Animi cumque officiis necessitatibus, voluptatem repellendus quae similique deserunt? Modi fuga architecto totam minima. Ad, totam?
+                    </p>
+                </div>
+            </div>
+                
         </div>
     </div>
+    <footer class="well well-sm">&copy Steven Duran</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

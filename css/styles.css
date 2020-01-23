@@ -16,3 +16,36 @@ body {
     background-size: cover;
     height: 70vh;
 }
+
+.welcome {
+    background-color: rgba(125,72,92,.3);
+}
+
+.text-muted:hover {
+    text-transform: lowercase;
+}
+
+.pawns {
+    height: 30vh;
+    margin-bottom: 5px;
+}
+
+.img-thumbnail:hover {
+    transform: scale(.9,.9);
+}
+
+.reflecting {
+    height: 30vh;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.seas {
+    height: 30vh;
+    margin-bottom: 5px;
+}
+
+.mid {
+    color: white;
+    background-color: black;
+}
