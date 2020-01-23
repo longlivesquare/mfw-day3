@@ -12,7 +12,7 @@ body {
 }
 
 .jumbotron {
-    background: url('/img/stone-age.jpg') center center no-repeat;
+    background: url('../img/stone-age.jpg') center center no-repeat;
     background-size: cover;
     height: 70vh;
 }
