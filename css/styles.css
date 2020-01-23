@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mainfont {
+    font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron {
+    background: url('/img/stone-age.jpg') center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
